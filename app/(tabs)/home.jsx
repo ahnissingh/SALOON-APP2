@@ -111,6 +111,7 @@ const dummyPosts = [
         rating: 4.4,
         image: "https://images.pexels.com/photos/1475603/pexels-photo-1475603.jpeg",
     },
+
     {
         $id: "13",
         title: "Bridal Makeup",
@@ -119,6 +120,7 @@ const dummyPosts = [
         rating: 4.8,
         image: "https://images.pexels.com/photos/4117615/pexels-photo-4117615.jpeg",
     },
+
     {
         $id: "14",
         title: "Body Scrubs",
@@ -127,6 +129,7 @@ const dummyPosts = [
         rating: 4.2,
         image: "https://images.pexels.com/photos/4347592/pexels-photo-4347592.jpeg",
     },
+
     {
         $id: "15",
         title: "Deep Conditioning",
@@ -305,7 +308,6 @@ const Home = () => {
         </TouchableOpacity>
     );
 
-    // Details screen within the Home component
     const renderDetails = (item) => (
         <View style={styles.detailsContainer}>
             <TouchableOpacity onPress={() => setSelectedItem(null)}>
